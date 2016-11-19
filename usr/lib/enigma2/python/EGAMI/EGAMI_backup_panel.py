@@ -4,7 +4,7 @@ from Screens.Screen import Screen
 from Screens.Console import Console
 from Screens.MessageBox import MessageBox
 from Screens.ChoiceBox import ChoiceBox
-from EGAMI.EGAMI_tools import runBackCmd, unload_modules, wyszukaj_re, checkkernel 
+from EGAMI.EGAMI_tools import *
 from Components.Button import Button
 from Components.ActionMap import ActionMap, NumberActionMap
 from Components.GUIComponent import *
