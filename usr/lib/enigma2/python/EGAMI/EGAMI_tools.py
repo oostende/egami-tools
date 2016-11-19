@@ -12,8 +12,8 @@ from socket import *
 import socket
 
 def catalogXmlUrl():
-    if getBoxType() in ('vusolose', 'vuzero', 'vuuno', 'vusolo', 'vusolo2', 'vuultimo', 'vuduo', 'vuduo2'):
-        url = 'http://sodo13.zz.mu/plugins/catalog_enigma2_new.xml'
+    if about.getImageVersionString().startswith('7.2'):
+        url = 'http://sodo13.zz.mu/plugins/catalog_enigma2_latest.xml'
     else:
         url = 'http://enigma-spark.com/egami/catalog_enigma2.xml'
     return url
