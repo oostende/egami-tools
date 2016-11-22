@@ -18,7 +18,7 @@ from Components.config import *
 from Tools.Directories import fileExists, resolveFilename, SCOPE_CURRENT_SKIN
 from Plugins.SystemPlugins.NetworkBrowser.NetworkBrowser import NetworkBrowser
 from EGAMI.EGAMI_services_config import EGDropbearConfig
-from EGAMI.EGAMI_tools import runBackCmd, unload_modules, wyszukaj_in, catalogXmlUrl
+from EGAMI.EGAMI_tools import *
 from EGAMI.EGAMI_addon_manager import EG_PrzegladaczAddonow, EG_Manual_installation, EGAddonRemove, EGConnectionAnimation
 from os import system, listdir, symlink, unlink, readlink, path as os_path, stat, mkdir, popen, makedirs, access, rename, remove, W_OK, R_OK, F_OK, chmod, walk, getcwd, chdir
 if os_path.exists('/usr/lib/enigma2/python/Plugins/SystemPlugins/EGAMIPluginSpeedUp'):
