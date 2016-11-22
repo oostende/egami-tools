@@ -16,7 +16,7 @@ from Plugins.Plugin import PluginDescriptor
 from Tools.Directories import fileExists, resolveFilename, SCOPE_PLUGINS, SCOPE_SKIN_IMAGE
 import os
 from EGAMI.EGAMI_main import EGKernelInfo
-from EGAMI.EGAMI_tools import getStbArch
+from EGAMI.EGAMI_tools import *
 from Plugins.Extensions.EGAMIPermanentClock.plugin import *
 from boxbranding import getMachineBuild
 
