@@ -27,7 +27,7 @@ import traceback
 import StringIO
 from xml.dom import EMPTY_NAMESPACE
 import xml.dom.minidom
-from EGAMI.EGAMI_tools import wyszukaj_re, getStbArch, catalogXmlUrl
+from EGAMI.EGAMI_tools import *
 fp = None
 
 class BoundFunction:
