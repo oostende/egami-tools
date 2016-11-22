@@ -42,10 +42,9 @@ def menu(menuid, **kwargs):
     return []
 
 
-#from enigma import eEGAMI
+from EGAMI.EGAMI_tools import *
 #Use Old Patch Fuuuuuuk EGAMI-TEAM
 def main(session, **kwargs):
-#   m = eEGAMI.getInstance().checkkernel()
     m = checkkernel()
     if m == 1:
         try:
