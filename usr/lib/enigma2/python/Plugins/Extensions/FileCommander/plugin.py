@@ -39,6 +39,7 @@ from Plugins.Extensions.FileCommander.addons.type_utils import *
 from Plugins.Extensions.FileCommander.addons.dmnapim import *
 from Plugins.Extensions.FileCommander.addons.N24 import *
 from Plugins.Extensions.PicturePlayer.ui import config
+from EGAMI.EGAMI_tools import *
 MOVIEEXTENSIONS = {'cuts': 'movieparts',
  'meta': 'movieparts',
  'ap': 'movieparts',
