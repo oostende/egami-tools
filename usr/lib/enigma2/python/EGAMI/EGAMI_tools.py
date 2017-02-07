@@ -12,10 +12,10 @@ from socket import *
 import socket
 
 def catalogXmlUrl():
-    if about.getImageVersionString().startswith('7.2'):
-        url = 'http://sodo13.zz.mu/plugins/catalog_enigma2_latest.xml'
+    if about.getImageVersionString().startswith('7.3'):
+        url = 'http://visionnet.fr/feeds/openbh/egami/tools/catalog_enigma2_latest.xml'
     else:
-        url = 'http://enigma-spark.com/egami/catalog_enigma2.xml'
+        url = 'http://sodo13.zz.mu/plugins/catalog_enigma2_latest.xml'
     return url
 
 def getStbArch():
