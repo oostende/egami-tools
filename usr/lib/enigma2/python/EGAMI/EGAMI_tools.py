@@ -12,7 +12,7 @@ from socket import *
 import socket
 
 def catalogXmlUrl():
-    if about.getImageVersionString().startswith('7.3'):
+    if about.getImageVersionString().startswith('8.0'):
         url = 'http://visionnet.fr/feeds/openbh/egami/tools/catalog_enigma2_latest.xml'
     else:
         url = 'http://sodo13.zz.mu/plugins/catalog_enigma2_latest.xml'
